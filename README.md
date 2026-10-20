@@ -6,10 +6,6 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Taha_Heidaryfard-emerald?style=for-the-badge&logo=safari)](https://taha-heidaryfard.ir/projects/qr-tools)
 [![Donate](https://img.shields.io/badge/Donate-Reymit-rose?style=for-the-badge&logo=heart)](https://reymit.ir/taxtander)
 
-- 🔗 **مشاهده نسخه زنده برنامه:** [taha-heidaryfard.github.io/qr-tools](https://taha-heidaryfard.github.io/qr-tools/)
-- 🌐 **صفحه معرفی اختصاصی پروژه در سایت توسعه‌دهنده:** [QR Tools | جعبه ابزار جامع و حرفهای QR Code | محمد طاها حیدریفرد](https://taha-heidaryfard.ir/projects/qr-tools)
-- ☕ **حمایت مالی از توسعه‌دهنده:** [رِیمیت | درگاه حمایت مالی از Taxtander](https://reymit.ir/taxtander)
-
 ---
 
 ## ✨ قابلیت‌های اصلی (Features)
@@ -135,10 +131,10 @@ npm run build
 
 ## 👨‍💻 توسعه‌دهنده (Author)
 
-این پروژه توسط **[محمد طاها حیدریفرد | توسعه‌دهنده نرم‌افزار و وب](https://taha-heidaryfard.ir/)** طراحی و توسعه داده شده است.
+این پروژه توسط **[محمد طاها حیدری فرد | توسعه‌دهنده نرم‌افزار و وب](https://taha-heidaryfard.ir/)** طراحی و توسعه داده شده است.
 
 - 🌐 وب‌سایت شخصی: [taha-heidaryfard.ir](https://taha-heidaryfard.ir/)
-- 📌 صفحه معرفی و جزئیات پروژه: [QR Tools | جعبه ابزار جامع و حرفهای QR Code | محمد طاها حیدریفرد](https://taha-heidaryfard.ir/projects/qr-tools)
+- 📌 صفحه معرفی و جزئیات پروژه: [QR Tools | جعبه ابزار جامع و حرفهای QR Code | محمد طاها حیدری فرد](https://taha-heidaryfard.ir/projects/qr-tools)
 - 💖 حمایت از توسعه پروژه: [رِیمیت | درگاه حمایت مالی از Taxtander](https://reymit.ir/taxtander)
 
 ---

@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QR Tools | جعبه ابزار جامع و حرفه‌ای QR Code
 
-## Getting Started
+اپلیکیشن تحت وب مدرن، قدرتمند و کاملاً مستقل برای تولید، طراحی اختصاصی، تولید گروهی و اسکن آنی QR Code با تمرکز ویژه بر حریم خصوصی ۱۰۰٪ و قابلیت کارکرد آفلاین.
 
-First, run the development server:
+---
 
+## ✨ قابلیت‌های اصلی (Features)
+
+### ۱. تولید انواع محتوا (Content Types)
+- **متن ساده (Plain Text)**
+- **لینک و وب‌سایت (URL)** با اضافه کردن خودکار پروتکل امن
+- **شبکه وای‌فای (Wi-Fi)** شامل نام شبکه (SSID)، رمز عبور، نوع رمزنگاری (WPA/WEP/بدون رمز) و شبکه‌های مخفی
+- **اطلاعات تماس و مخاطب (vCard 3.0)** شامل نام، شرکت، عنوان شغلی، شماره‌های تماس، ایمیل، وب‌سایت و آدرس
+- **شبکه‌های اجتماعی (Social Links)** از جمله Telegram, WhatsApp, Instagram, X (Twitter), LinkedIn, GitHub, YouTube و Facebook
+- **ایمیل (Email)** شامل گیرنده، موضوع و متن پیام
+- **شماره تلفن (Phone)** با امکان شماره‌گیری مستقیم
+- **پیامک (SMS)** با قابلیت ارسال مستقیم متن آماده
+
+### ۲. شخصی‌سازی پیشرفته ظاهری (Visual Customization)
+- **قالب‌های آماده زیبا**: کلاسیک، مدرن سنگی، نیلی فناوری، زمرد و نعنا، غروب رز، بنفش رویال، اقیانوسی فیروزه‌ای، شب معکوس و کهربایی
+- **طرح و شکل نقاط داخلی**: مربعی استاندارد، گوشه‌گرد نرم، دایره‌ای و لوزی مدرن
+- **طرح قاب گوشه‌ها (چشم‌ها)**: مربع تیز، گوشه‌گرد، خیلی گرد و دایره‌ای
+- **طرح نقطه مرکزی گوشه‌ها**: مربع، دایره و گرد
+- **رنگ‌بندی نامحدود**: انتخاب رنگ دلخواه برای QR، پس‌زمینه (با پشتیبانی از پس‌زمینه شفاف) و رنگ اختصاصی مجزا برای چشم‌های گوشه
+- **افزودن لوگو به مرکز QR**:
+  - بارگذاری تصویر اختصاصی (PNG / SVG / JPG)
+  - لوگوهای آماده و محبوب (Wi-Fi، Link، WhatsApp، Telegram، Instagram، GitHub، LinkedIn، Email)
+  - تنظیم ابعاد لوگو، حاشیه امن و گردی گوشه
+- **تنظیم سطح تصحیح خطا (Error Correction)**: سطوح L (7%), M (15%), Q (25%) و H (30%)
+- **بررسی هوشمند خوانایی (Readability Health Check)**: محاسبه کنتراست رنگ و هشدارهای امنیتی در صورت کاهش کیفیت اسکن
+
+### ۳. پیش‌نمایش، خروجی و چاپ (Export & Print)
+- پیش‌نمایش زنده و آنی هرگونه تغییر
+- دانلود تصویر PNG با کیفیت بالا
+- دانلود وکتور برداری SVG مقیاس‌پذیر برای طراحی و چاپ صنعتی
+- کپی مستقیم تصویر در کلیپ‌بورد
+- کپی سریع متن و لینک کد
+- چاپ مستقیم با استایل بهینه‌سازی‌شده برای کاغذ و بدون المان‌های اضافی
+
+### ۴. تولید گروهی (Batch Generation)
+- ایجاد ده‌ها یا صدها QR Code به صورت همزمان از طریق متن چندخطی یا بارگذاری فایل `.txt` و `.csv`
+- دانلود مجزا برای هر کد
+- دانلود یک‌جای کدهای تولیدشده
+- چاپ صفحه تماس و برچسب‌های گروهی
+
+### ۵. اسکنر هوشمند و سریع (QR Scanner)
+- اسکن با دوربین دستگاه (با قابلیت تغییر دوربین عقب و جلو و فریم هدف‌یابی)
+- اسکن از طریق بارگذاری تصویر یا کشیدن و رها کردن فایل (Drag & Drop)
+- تحلیل محتوا و ارائه دکمه‌های سریع (کپی رمز وای‌فای، شماره‌گیری تلفن، دانلود مخاطب `.vcf`)
+- تاییدیه امنیتی پیش از باز کردن لینک‌ها برای جلوگیری از حملات فیشینگ
+- مدیریت خطاهای مجوز دوربین به دو زبان
+
+### ۶. تجربه کاربری و استانداردهای طراحی (UI/UX)
+- پشتیبانی کامل از زبان‌های فارسی و انگلیسی (Full i18n)
+- جهت‌بندی کامل راست‌به‌چپ (RTL) و چپ‌به‌راست (LTR)
+- حالت تاریک و روشن (Dark & Light Mode) با همگام‌سازی تم سیستم
+- طراحی مدرن و واکنش‌گرا مناسب موبایل، تبلت و دسکتاپ
+- کلیدهای دسترسی، مدیریت فوکوس و استانداردهای دسترس‌پذیری
+- پیام‌های وضعیت و اعلان‌های Toast بدون مسدودسازی رابط کاربری
+
+### ۷. حریم خصوصی، آفلاین و PWA (Privacy & Architecture)
+- **۱۰۰٪ پردازش کلاینت**: تمام محاسبات داخل مرورگر انجام شده و هیچ داده‌ای به هیچ سروری ارسال نمی‌شود.
+- **بدون بک‌اند و بدون دیتابیس**: سازگار با خروجی استاتیک Next.js (`output: 'export'`).
+- **PWA Ready**: پشتیبانی از نصب به عنوان وب‌اپلیکیشن در موبایل و دسکتاپ و کارکرد آفلاین.
+
+---
+
+## 🛠️ فناوری‌های مورد استفاده (Tech Stack)
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Static Export)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **QR Engine**: [qrcode](https://github.com/soldair/node-qrcode) + Custom Canvas & SVG stylized matrix renderer
+- **Scanner**: [@zxing/browser](https://github.com/zxing-js/browser)
+- **Theming**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Testing**: [Vitest](https://vitest.dev/)
+
+---
+
+## 🚀 راهنمای راه‌اندازی و اجرا (Getting Started)
+
+### پیش‌نیازها
+- Node.js نسخه 18 یا بالاتر
+- npm یا pnpm یا yarn
+
+### نصب وابستگی‌ها
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### اجرای محیط توسعه
+```bash
+npm run dev
+```
+سپس آدرس `http://localhost:3000` را در مرورگر باز کنید.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### اجرای تست‌های واحد
+```bash
+npm run test
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### بررسی خطاها و استانداردهای کد (Linter)
+```bash
+npm run lint
+```
 
-## Learn More
+### ساخت خروجی نهایی استاتیک (Production Static Export)
+```bash
+npm run build
+```
+فایل‌های خروجی استاتیک در پوشه `out/` ایجاد می‌شوند و بدون نیاز به هیچ سرور نودجی‌اس یا بک‌اند، روی هر هاست استاتیک، CDN، گیت‌هاب پیجز یا وب‌سروری (مانند Nginx یا Apache) قابل میزبانی هستند.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 انتشار روی GitHub Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+یک جریان کاری خودکار (GitHub Actions Workflow) در مسیر `.github/workflows/deploy.yml` قرار دارد:
+1. پروژه را به گیت‌هاب پوش (Push) کنید.
+2. در تنظیمات مخزن گیت‌هاب (Repository Settings):
+   - به بخش **Pages** بروید.
+   - منبع ساخت (Build and deployment Source) را روی **GitHub Actions** تنظیم کنید.
+3. در هر بار Push به شاخه `main` یا `master`، تست‌ها اجرا شده و پروژه به صورت خودکار بیلد و روی آدرس اختصاصی گیت‌هاب پیجز منتشر می‌شود.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 مجوز (License)
+این پروژه متن‌باز بوده و تحت مجوز MIT منتشر شده است.
